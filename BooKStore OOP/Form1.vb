@@ -9,7 +9,7 @@ Public Class Form1
     'again as inventory to make a double inventory. 
     Private Inventory As List(Of inventory) = New List(Of inventory)
     Private Sub btnAddbookAndAuthor_Click(sender As Object, e As EventArgs) Handles btnAddbookAndAuthor.Click
-
+        Dim var1 As Integer = 5
         Dim objCompleteBook As New Book
         Dim objDiffNames As New author 'this the structure for the seperate name 
         objCompleteBook.TitleName = TxtBookName.Text
