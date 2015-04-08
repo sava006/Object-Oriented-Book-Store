@@ -7,6 +7,7 @@ Public Class Book
     Public _bookprice As Double
     Public _hardcover As Boolean
     Public _quantity As Integer
+    Public _funnProgram As Integer
     Public _name As String 'name of the author its first and last name
     'are stored on the author structure see author
     Public Property TitleName() As String
