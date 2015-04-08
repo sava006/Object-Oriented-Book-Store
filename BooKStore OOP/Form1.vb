@@ -2,6 +2,7 @@
 Imports System.IO.StreamReader
 
 Public Class Form1
+    Dim var2 As String = 4
     Dim MastForSaleBookList As New ArrayList
     'this calls the collection class '
     'i think this could be done better but i am still am unsure about this
